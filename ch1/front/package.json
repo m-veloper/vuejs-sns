@@ -15,5 +15,8 @@
     "dev": "nuxt"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@nuxt/types": "~2.15.0"
+  }
 }
