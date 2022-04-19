@@ -11,12 +11,14 @@
     "vue": "^2.6.10",
     "vuetify": "^2.0.15"
   },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^5.2.3"
+  },
   "scripts": {
-    "dev": "nuxt"
+    "dev": "nuxt",
+    "lint": "eslint '**/*.{js,jsx,vue}' --quiet"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@nuxt/types": "~2.15.0"
-  }
+  "license": "ISC"
 }
