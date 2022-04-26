@@ -14,6 +14,7 @@ const hashtagRouter = require('./routes/hashtag');
 const app = express();
 
 db.sequelize.sync();
+// db.sequelize.sync({force: true});
 passportConfig();
 
 app.use(morgan('dev'));
@@ -46,6 +47,6 @@ app.use('/post', postRouter);
 app.use('/posts', postsRouter);
 app.use('/hashtag', hashtagRouter);
 
-app.listen(3085, () => {
-  console.log(`백엔드 서버 ${3085}번 포트에서 작동중.`);
+app.listen(3086, () => {
+  console.log(`백엔드 서버 ${3086}번 포트에서 작동중.`);
 });
