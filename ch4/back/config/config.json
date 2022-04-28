@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "astar6",
-    "password": "dktmxkzjavjsl*6",
+    "username": "",
+    "password": "",
     "database": "python",
-    "host": "astar-maria.c5dsp2ro13rz.ap-northeast-2.rds.amazonaws.com",
+    "host": "",
     "dialect": "mysql",
     "operatorsAliases": false
   },
@@ -16,10 +16,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "astar6",
-    "password": "dktmxkzjavjsl*6",
+    "username": "",
+    "password": "",
     "database": "python",
-    "host": "astar-maria.c5dsp2ro13rz.ap-northeast-2.rds.amazonaws.com",
+    "host": "",
     "dialect": "mysql",
     "operatorsAliases": false
   }
